@@ -1,51 +1,66 @@
 <!DOCTYPE html>
+<!-- Declaring a language is important for accessibility applications (screen readers) and search engines -->
 <html lang="en-US">
+
+<!-- The HTML <head> element has nothing to do with HTML headings.
+The <head> element is a container for metadata. HTML metadata is data about the HTML document. Metadata is not displayed.
+The <head> element is placed between the <html> tag and the <body> tag: 
+Note: Metadata typically define the document title, character set, styles, links, scripts, and other meta information -->
 
 <head>
   <title>My First HTML</title>
   <meta charset="UTF-8">
 </head>
 
+<!-- Everything in body will be displayed -->
 <body>
 
 <!-- Write your comments here -->
 
 
+<h2 id="top">Top</h2>
 
-<!-- <h2 id="top">Top</h2> -->
-
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
-
+<!-- Headings are defined with the <h1> to <h6> tags. <h1> defines the most important heading. <h6> defines the least important heading. -->
 <h1>This is heading 1</h1>
 <h2>This is heading 2</h2>
 <h3>This is heading 3</h3>
 <h4>This is heading 4</h4>
 <h5>This is heading 5</h5>
 <h6>This is heading 6</h6>
+<hr>
 
 <p>This is a paragraph.</p>
 <p>This is another paragraph.</p>
+<hr>
+
+<!-- links and images 
+Note: The alt attribute is also useful if the image does not exist -->
 
 <a href="https://google.com">This is a link to Google</a>
-
 <img src="https://mdbootstrap.com/img/logo/mdb-transparent-big.png" alt="MDB" width="184" height="122">
+<img src="https://mdbootstrap.com/img/logo/mdb192x192.jpg" alt="MDB logo with dark background">
+<hr>
 
+<!-- Tooltip -->
+<p title="I'm a tooltip">
+    Hover me to see a tooltip.
+</p>
+
+<hr>
+
+<!-- button -->
 <button>Click me</button>
+<hr>
 
+<!-- unordered list -->
 <ul>
     <li>Coffee</li>
     <li>Tea</li>
     <li>Milk</li>
 </ul>
+<hr>
 
-<img src="https://mdbootstrap.com/img/logo/mdb192x192.jpg" alt="MDB logo with dark background">
 
-<p style="color:green">I am a green paragraph</p>
-
-<p title="I'm a tooltip">
-    Hover me to see a tooltip.
-</p>
 
 <h1>This is heading 1</h1>
 <p>This is some text.</p>
@@ -54,6 +69,7 @@
 <p>This is some other text.</p>
 <hr>
 
+<!-- Text formatting -->
 <p>You can use the mark tag to <mark>highlight</mark> text.</p>
 <p><del>This line of text is meant to be treated as deleted text.</del></p>
 <p><s>This line of text is meant to be treated as no longer accurate.</s></p>
@@ -62,13 +78,13 @@
 <p><small>This line of text is meant to be treated as fine print.</small></p>
 <p><strong>This line rendered as bold text.</strong></p>
 <p><em>This line rendered as italicized text.</em></p>
-
 <p>My favorite <ins>color</ins> is red.</p>
+<p style="color:green">I am a green paragraph</p>
+<hr>
 
 
 
-
-
+<!-- you can add references to parts of the page to jump wherever -->
 <a href="#top">Jump to Top</a>
 
 </body>
